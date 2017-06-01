@@ -17,29 +17,22 @@ a, a:hover, a:active, a:visited {
 	color: #000000;
 	}	
 	
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
 
-body {
-	background-color:#F51B1E;
-	overflow:hidden;}
- }
-
-/*container*/
-.container-fluid {
-	position:relative;
-	}
+	/*container*/
+	.container-fluid {
+		position:relative;
+		}
 
 
-/* Transitions de pages*/
+		/* Transitions de pages*/
 
-.niveau {
-	display:none;
-	}
-	
-.niveauactif {
-	display:block;
-	}
+		.niveau {
+			display:none;
+			}
+			
+		.niveauactif {
+			display:block;
+			}
 
 /*navigation mobile*/
 
@@ -153,14 +146,6 @@ h3 {
 	letter-spacing:1px;
 	}
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
 
 
 
