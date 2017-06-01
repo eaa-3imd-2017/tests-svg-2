@@ -40,12 +40,12 @@ svgExt.addEventListener("load",function() {
   svgEspagne.addEventListener("click", svgCountryInfo);
   svgEspagne.addEventListener("mouseleave", svgCountryHide);
   
-  svgUk.addEventListener("mouseenter", svgCountryInfo);
-  svgUk.addEventListener("click", svgCountryInfo);
-  svgUk.addEventListener("mouseleave", svgCountryHide);
+  svgUk.addEventListener("mouseover", svgCountryInfo, false);
+  // svgUk.addEventListener("click", svgCountryInfo);
+  svgUk.addEventListener("mouseout", svgCountryHide, false);
    
   svgAllemagne.addEventListener("mouseenter", svgCountryInfo);
-  // svgAllemagne.addEventListener("click", svgCountryInfo);
+  svgAllemagne.addEventListener("click", svgCountryInfo);
   svgAllemagne.addEventListener("mouseleave", svgCountryHide);
 
  }, false);
