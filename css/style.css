@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family : "Avenir Next", Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #4D4D4D;
+	line-height:1.6em;
+	background-color: #F5F0E1;
+	overflow-x:hidden;
+	}
+	
+a, a:hover, a:active, a:visited {
+	text-decoration:none;
+	color: #000000;
+	}	
+	
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+body {
+	background-color:#F51B1E;
+	overflow:hidden;}
+ }
+
+/*container*/
+.container-fluid {
+	position:relative;
+	}
+
+
+/* Transitions de pages*/
+
+.niveau {
+	display:none;
+	}
+	
+.niveauactif {
+	display:block;
+	}
+
+/*navigation mobile*/
+
+/*reset*/
+.navbar-default {
+	background-color:transparent;
+	border-color:transparent;
+	}
+	
+.navbar-default .navbar-toggle {
+	border-color:transparent;
+	}
+	
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color:transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	width:85%;
+	float:right;
+	border-color:transparent;
+	background-color:#E5DFCF;
+	position:relative;
+	top:-150px;
+	padding-top:30px;
+}
+
+.navbar-toggle {
+	float:left;
+	margin-top:0px;
+}
+
+#iconnavmobile {
+	width:65px;
+	}
+	
+#menu-mobile li {
+	list-style:none;}
+
+/*menu?*/
+.menu {
+	position:relative;
+	top:0;
+	left:0;
+    display: none; 
+    width: 100%;
+    padding: 30px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: #333; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+/*navigation*/
+
+#navigation {
+	height:100vh;
+	position:absolute;
+	top:0;
+	left:1vw;
+	}
+	
+
+/*titres*/
+
+.titre {
+
+	width:280px;
+	position:fixed;
+	text-align:center;
+	padding-top:10px;
+	top:0;
+	left:0;
+	}
+	
+h1 {
+	color:#2C945C;
+	font-size:30px;
+	text-transform:uppercase;
+	letter-spacing:15px;
+	position:relative;
+	left:7px;
+	padding:0;
+	margin:0;
+	}
+	
+h2 {
+	color:#E55324;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:6px;
+	padding:0;
+	margin:0;
+	}
+	
+h3 {
+	text-align:center;
+	color:#4d4d4d;
+	font-size:20px;
+	letter-spacing:1px;
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+
+/*europe*/
+#carteeurope {
+	position:relative;
+	top:15vh;
+	}
+
+#europe p {
+	font-size:18px;
+	position:relative;
+	top:6vh;
+	left:12vw;
+	}
+
+.classement {
+	line-height:1.7;
+	position:relative;
+	list-style:none;
+	font-size:18px;
+	color:#E55324;
+	left:20vw;
+	top: 8vh;
+	}
+	
+.espagnehover, .ukhover, .allemagnehover, .luxembourghover {
+	width: 80%;
+	text-align:center;
+	display: none;
+	position:absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 10;
+}
+
+.espagnehover p, .allemagnehover p, .luxembourghover p, .ukhover p {
+	letter-spacing:1px;
+	color:red;
+	}
+
+#pouruk, #poures, #pourde, #pourlx {
+	width:200px;
+	}
+
+/*suisse*/
+
+#cartesuisse {
+	margin-top:30px;
+	}
+
+.infos {
+	width:95vw;
+	margin:auto;
+	position:relative;
+	top:5vh;
+	}
+
+.fr, .de, .it {
+	width: 25%;
+	margin-right:20px;
+	display:inline-block;
+	}
+
+.drapeaux h4 {
+	font-size:15px;
+	}
+
+.drapeaux p {
+	margin-top:10px;
+	font-size:15px;
+	}
+	
+	#troistrois {
+		position:relative;
+		vertical-align:middle;
+		font-size:18px;
+		}
+		
+	#troistrois span {
+		color:red;
+		}
+		
+/*romandie*/
+
+.baton {
+	margin-top:50px;
+	position:relative;
+	left:12vw;
+	}
+
+.batonvd {
+    width: 280px;
+    height: 30px;
+	margin-bottom:10px;
+    background-color: #06602C;
+    -webkit-animation-name: grand; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: grand;
+    animation-duration: 2s;
+}
+
+/* Standard syntax */
+@keyframes grand {
+    from {width:0px}
+    to {width:250px}
+}
+
+.batonju {
+    width: 55px;
+    height: 30px;
+    background-color: #8DC6A4;
+    -webkit-animation-name: petit; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: petit;
+    animation-duration: 2s;
+}
+
+/* Standard syntax */
+@keyframes petit {
+    from {width:0px}
+    to {width:55px}
+}
+
+.debug {
+	height: 2em;
+	min-width: 5em;
+	position: fixed;
+	z-index: 99;
+	left: 10px;
+	bottom: 10px;
+	background: yellow;
+	padding: 0.3em;
+}

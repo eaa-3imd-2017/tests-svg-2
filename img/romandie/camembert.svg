@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.7 363" style="enable-background:new 0 0 595.7 363;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F7B1AA;}
+	.st1{fill:#BF352E;}
+	.st2{fill:#06602C;}
+	.st3{fill:#ED7569;}
+	.st4{font-family:'BatonTurboTrial-Book';}
+	.st5{font-size:22.9426px;}
+	.st6{fill:none;stroke:#000000;stroke-width:2.2943;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{font-family:'CircularStd-Bold';}
+</style>
+<g>
+	<circle class="st0" cx="221.3" cy="168.3" r="138.9"/>
+	<path class="st1" d="M221.3,168.3l-91.9,104.2c-29.9-26.4-47-64.3-47-104.2c0-76.2,62.7-138.9,138.9-138.9s138.9,62.7,138.9,138.9
+		H221.3z"/>
+	<path class="st2" d="M221.3,168.3L290,289c-14.7,8.4-30.8,14-47.6,16.6c-41.2,6.4-83.1-6.1-114.1-34L221.3,168.3z"/>
+	<path class="st3" d="M221.3,168.3l123.9,62.8c-6,11.9-13.8,22.9-23,32.6c-9.2,9.7-19.7,18-31.3,24.7L221.3,168.3z"/>
+	<text transform="matrix(1 0 0 1 23.3735 55.8621)" class="st4 st5">Genève</text>
+	<text transform="matrix(1 0 0 1 127.0835 338.0565)" class="st4 st5">Lausanne</text>
+	<text transform="matrix(1 0 0 1 441.5424 213.1737)" class="st4 st5">Sion</text>
+	<text transform="matrix(1 0 0 1 364.1714 320.4676)" class="st4 st5">La Chaux-de-Fonds</text>
+	<line class="st6" x1="82.3" y1="62.7" x2="130.9" y2="94.9"/>
+	<line class="st6" x1="345" y1="188.4" x2="430.9" y2="203.4"/>
+	<line class="st6" x1="306.8" y1="250.9" x2="355.8" y2="299.1"/>
+	<line class="st6" x1="173.4" y1="283.8" x2="166.1" y2="318.9"/>
+	<text transform="matrix(1 0 0 1 192.8286 105.5721)" class="st7 st5">63%</text>
+	<text transform="matrix(1 0 0 1 183.6508 258.5233)" class="st7 st5">18%</text>
+	<text transform="matrix(1 0 0 1 270.0688 237.1102)" class="st7 st5">10%</text>
+	<text transform="matrix(1 0 0 1 294.5405 197.3426)" class="st7 st5">7%</text>
+</g>
+</svg>

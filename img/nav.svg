@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<?xml-stylesheet type="text/css" href="../css/nav.css" ?>
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 83.1 743.7" style="enable-background:new 0 0 83.1 743.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5DCC6;}
+	.st1{fill:#FFFEFA;stroke:#666666;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#666666;}
+</style>
+<g id="plus">
+	<g>
+		<line class="st0" x1="38.2" y1="43.9" x2="51.2" y2="43.9"/>
+		<rect x="30.3" y="29.1" class="st0" width="28.4" height="28.4"/>
+	</g>
+	<g>
+		<line class="st1" x1="34.3" y1="40.3" x2="47.2" y2="40.3"/>
+		<rect x="26.3" y="25.4" class="st1" width="28.4" height="28.4"/>
+	</g>
+	<line class="st2" x1="36.4" y1="40.3" x2="45" y2="40.3"/>
+	<line class="st2" x1="40.7" y1="36" x2="40.7" y2="44.5"/>
+</g>
+<line id="trait" class="st2" x1="42" y1="54.7" x2="42" y2="693.9"/>
+<g id="moins">
+	<g>
+		<line class="st0" x1="39.9" y1="713.4" x2="52.8" y2="713.4"/>
+		<rect x="31.9" y="698.6" class="st0" width="28.4" height="28.4"/>
+	</g>
+	<g>
+		<line class="st1" x1="35.7" y1="709.8" x2="48.7" y2="709.8"/>
+		<rect x="27.8" y="695" class="st1" width="28.4" height="28.4"/>
+	</g>
+	<line class="st2" x1="37.9" y1="709.8" x2="46.5" y2="709.8"/>
+</g>
+<circle class="st3" cx="42.3" cy="177.2" r="13.8"/>
+<circle class="st3" cx="42.3" cy="374.3" r="6.3"/>
+<circle class="st3" cx="41.8" cy="575.1" r="6.3"/>
+</svg>

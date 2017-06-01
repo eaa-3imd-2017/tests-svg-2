@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.romandie {fill:#C1331B;}
+.italienne {fill:#F49A8C;}
+.allemande {fill:#E8563F;}
+
+.romandie:hover {
+	fill:#AF2B19;
+	cursor:pointer;
+	}
+	
+.allemande:hover {
+	fill:#D84839;
+	cursor:pointer;
+	}	
+	
+.italienne:hover {
+	fill:#EA897F;
+	cursor:pointer;
+	}
+	
