@@ -34,20 +34,19 @@ svgExt.addEventListener("load",function() {
   svgEspagne = svgDoc.getElementById("espagne");
   svgUk = svgDoc.getElementById("uk");
   svgAllemagne = svgDoc.getElementById("allemagne");
-  svgLuxembourg = svgDoc.getElementById("luxembourg");
 
   // On va rendre "sensible" un élément du SVG
   svgEspagne.addEventListener("mouseenter", svgCountryInfo);
+  svgEspagne.addEventListener("click", svgCountryInfo);
   svgEspagne.addEventListener("mouseleave", svgCountryHide);
   
   svgUk.addEventListener("mouseenter", svgCountryInfo);
+  svgUk.addEventListener("click", svgCountryInfo);
   svgUk.addEventListener("mouseleave", svgCountryHide);
    
   svgAllemagne.addEventListener("mouseenter", svgCountryInfo);
+  svgAllemagne.addEventListener("click", svgCountryInfo);
   svgAllemagne.addEventListener("mouseleave", svgCountryHide);
-  
-  svgLuxembourg.addEventListener("mouseenter", svgCountryInfo);
-  svgLuxembourg.addEventListener("mouseleave", svgCountryHide);
 
  }, false);
 
@@ -59,7 +58,7 @@ function svgCountryInfo(){
   if(mq.matches) {
 
   var CountryID = this.id;
-  console.log("svgCountryInfo: "+CountryID);
+  // console.log("svgCountryInfo: "+CountryID);
   debug.innerHTML = "svgCountryInfo: "+CountryID;
 
   // on en déduit l'élément à rendre visible
@@ -80,7 +79,7 @@ function svgCountryHide(){
   if(mq.matches) {
 
   var CountryID = this.id;
-  console.log("svgCountryHide: "+CountryID);
+  // console.log("svgCountryHide: "+CountryID);
   debug.innerHTML = "svgCountryHide: "+CountryID;
 
   // on en déduit l'élément à rendre visible
