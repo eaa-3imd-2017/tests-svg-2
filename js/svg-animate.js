@@ -45,7 +45,7 @@ svgExt.addEventListener("load",function() {
   svgUk.addEventListener("mouseout", svgCountryHide, false);
    
   svgAllemagne.addEventListener("mouseenter", svgCountryInfo);
-  svgAllemagne.addEventListener("click", svgCountryInfo);
+  // svgAllemagne.addEventListener("click", svgCountryInfo);
   svgAllemagne.addEventListener("mouseleave", svgCountryHide);
 
  }, false);
