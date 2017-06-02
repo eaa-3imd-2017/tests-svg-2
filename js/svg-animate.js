@@ -6,7 +6,7 @@
 
 var debug = document.createElement('div');
 debug.className = "debug";
-debug.innerHTML = "debugging";
+debug.innerHTML = "SVG not loaded yet...";
 document.querySelector("body").appendChild(debug);
 
 /*
