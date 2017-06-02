@@ -27,10 +27,11 @@ var mq = window.matchMedia('(min-width: 700px)');
 svgExt.addEventListener("load",function() {
 
   svgDoc = svgExt.contentDocument;
-  console.log("SVG contentDocument Loaded!");
+  debug.innerHTML = "SVG contentDocument Loaded!";
 
   // Le SVG est chargé, on peut maintenant
   // définir les formes qu'on souhaite manipuler
+
   svgEspagne = svgDoc.getElementById("espagne");
   svgUk = svgDoc.getElementById("uk");
   svgAllemagne = svgDoc.getElementById("allemagne");
@@ -38,13 +39,16 @@ svgExt.addEventListener("load",function() {
   // On va rendre "sensible" un élément du SVG
   svgEspagne.addEventListener("mouseenter", svgCountryInfo);
   svgEspagne.addEventListener("click", svgCountryInfo);
+  // click = works on iOS :)
   svgEspagne.addEventListener("mouseleave", svgCountryHide);
   
   svgUk.addEventListener("mouseover", svgCountryInfo, false);
+  // mouseover = works on iOS :)
   // svgUk.addEventListener("click", svgCountryInfo);
   svgUk.addEventListener("mouseout", svgCountryHide, false);
    
   svgAllemagne.addEventListener("mouseenter", svgCountryInfo);
+  // mouseenter = not detected on iOS :(
   // svgAllemagne.addEventListener("click", svgCountryInfo);
   svgAllemagne.addEventListener("mouseleave", svgCountryHide);
 
